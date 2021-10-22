@@ -5,7 +5,7 @@ bool protocol_error = false;
 bool domain_errors = false;
 bool port_error = false;
 bool path_error = false;
-
+// Hello World!
 string protocol_Parse(string URL)
 {
     string protocol = URL.substr(0, URL.find("//")-1); // locate the protocol by locating first ":"
